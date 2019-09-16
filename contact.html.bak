@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body style="background-color:#5050FF;">
-  <font color="black">
 	  <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
@@ -263,6 +262,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    </font>
+    
   </body>
 </html>

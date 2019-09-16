@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body style="background-color:#5050FF;">
-  <font color="black">
 	  <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
@@ -43,7 +42,7 @@
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
 						    <div class="text">
 						    	<span>Call</span>
-						    	<span>Call Us: + 94 52 57 2017</span>
+						    	<span>Call Us: +91 9452572017</span>
 						    </div>
 					    </div>
 					    <div class="col-md topper d-flex align-items-center justify-content-end">
@@ -73,10 +72,10 @@
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
+	        	<li class="nav-item active"><a href="project.html" class="nav-link">Projects</a></li>
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
 	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -88,74 +87,126 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Project</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Project <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section contact-section">
-      <div class="container">
-        <div class="row d-flex mb-5 contact-info justify-content-center">
-        	<div class="col-md-8">
-        		<div class="row mb-5">
-		          <div class="col-md-4 text-center py-4">
-		          	<div class="icon">
-		          		<span class="icon-map-o"></span>
-		          	</div>
-		            <p><span>Address:</span> C-37 , Gautam Garden Colony, Shivpur Bypass Rd, Suddhipur, Varanasi, Uttar Pradesh , INDIA </p>
-		          </div>
-		          <div class="col-md-4 text-center border-height py-4">
-		          	<div class="icon">
-		          		<span class="icon-mobile-phone"></span>
-		          	</div>
-		            <p><span>Phone:</span> <a href="tel://1234567920">+ 94 52 57 2017</a></p>
-		          </div>
-		          <div class="col-md-4 text-center py-4">
-		          	<div class="icon">
-		          		<span class="icon-envelope-o"></span>
-		          	</div>
-		            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-		          </div>
-		        </div>
+    <section class="ftco-section">
+			<div class="container">
+				<div class="row">
+    			<div class="col-md-4">
+    				<div class="project mb-4 img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
+    					<div class="overlay"></div>
+    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-3">
+            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/ERP-Systems.png);">
+              <div class="overlay"></div>
+              <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+              <div class="text text-center p-4">
+                <h3><a href="#">ERP &amp; Enterprise Resource Planning</a></h3>
+                <span>E.R.P</span>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row block-9 justify-content-center mb-5">
-          <div class="col-md-8 mb-md-5">
-          	<h2 class="text-center">If you got any questions <br>please do not hesitate to send us a message</h2>
-            <form action="#" class="bg-light p-5 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
-    	<div class="container-fluid px-0">
-    		<div class="row justify-content-center">
-        	<div class="col-md-12">
-        		<div id="map" class="bg-white"></div>
-        	</div>
+    			<div class="col-md-3">
+            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.png);">
+              <div class="overlay"></div>
+              <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+              <div class="text text-center p-4">
+                <h3><a href="#">HOSPITAL &amp; Hospital Management </a></h3>
+                <span>Medical</span>
+              </div>
+            </div>
+          </div>
+					<div class="col-md-3">
+            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.png);">
+              <div class="overlay"></div>
+              <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+              <div class="text text-center p-4">
+                <h3><a href="#">S M S &amp; School Management System</a></h3>
+                <span>School Projects</span>
+              </div>
+            </div>
+          </div>
+  				<div class="col-md-4">
+    				<div class="project mb-4 img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
+    					<div class="overlay"></div>
+    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project mb-4 img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
+    					<div class="overlay"></div>
+    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project mb-4 img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-7.jpg);">
+    					<div class="overlay"></div>
+    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project mb-4 img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-8.jpg);">
+    					<div class="overlay"></div>
+    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+					<div class="col-md-4">
+    				<div class="project mb-4 img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-9.jpg);">
+    					<div class="overlay"></div>
+    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+    		</div>
+    		<div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    	</div>
-    </section>
+			</div>
+		</section>
+
 		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -165,9 +216,9 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">C-37 , Gautam Garden Colony, Shivpur Bypass Rd, Suddhipur, Varanasi, Uttar Pradesh , INDIA </span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"> 94 52 57 2017</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">C-37 , Gautam Garden Colony, Shivpur Bypass Rd, Suddhipur, Varanasi, Uttar Pradesh , INDIA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9452572017</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">itindian.hr@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -235,7 +286,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://www.ItINDIAN.in" target="_blank">ItINDIAN</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://www.itindian.in" target="_blank">ItINDIAN</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
@@ -263,6 +314,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    </font>
+    
   </body>
 </html>
