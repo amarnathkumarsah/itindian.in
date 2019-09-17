@@ -1,2 +1,0 @@
-# itindian.in
- itindian
