@@ -601,21 +601,25 @@
 		            <h2 class="mb-4">Request A Quote</h2>
 		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 		          </div>
-		          <form action="#" class="appointment-form ftco-animate">
+		           <form action="http://succexa.website/send-email-php/post.php" class="appointment-form ftco-animate">
 		    				<div class="d-md-flex">
 			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="First Name">
+			    					<input type="text" name="first_name" class="form-control" placeholder="First Name">
 			    				</div>
 			    				<div class="form-group ml-md-4">
-			    					<input type="text" class="form-control" placeholder="Last Name">
+			    					<input type="text" name="last_name" class="form-control" placeholder="Last Name">
 			    				</div>
 		    				</div>
 		    				<div class="d-md-flex">
 		    					<div class="form-group">
 			    					<div class="form-field">
-		        					<div class="select-wrap">
+			    						<div class="form-group">
+			    					<input type="email" name="email" class="form-control" placeholder="Email id" pattern=".+@gmail.com" oninvalid="setCustomValidity('we only accept Gmail account id!')"
+   									 onchange="try{setCustomValidity('')}catch(e){}" required>
+			    				</div>
+		        					<!-- <div class="select-wrap">
 		                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-		                    <select name="" id="" class="form-control">
+		                    <select name="" id="" class="form-control" >
 		                    	<option value="">Select Guidance</option>
 		                      <option value="">Finance</option>
 		                      <option value="">Business</option>
@@ -623,16 +627,17 @@
 		                      <option value="">Real Estate</option>
 		                      <option value="">Other Services</option>
 		                    </select>
-		                  </div>
+		                  </div> -->
 			              </div>
 			    				</div>
 		    					<div class="form-group ml-md-4">
-			    					<input type="text" class="form-control" placeholder="Phone">
+			    					<input type="text" name="phone" class="form-control" placeholder="Phone" pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[6789]\d{9}$" oninvalid="setCustomValidity('Please enter a valid mobile number!!!')"
+   									 onchange="try{setCustomValidity('')}catch(e){}" required>
 			    				</div>
 		    				</div>
 		    				<div class="d-md-flex">
 		    					<div class="form-group">
-			              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+			              <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
 			            </div>
 			            <div class="form-group ml-md-4">
 			              <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
