@@ -115,7 +115,7 @@
 		          	<div class="icon">
 		          		<span class="icon-envelope-o"></span>
 		          	</div>
-		            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+		            <p><span>Email:</span> <a href="mailto:itindian.hr@gmail.com">itindian.hr@gmail.com</a></p>
 		          </div>
 		        </div>
           </div>
@@ -123,15 +123,19 @@
         <div class="row block-9 justify-content-center mb-5">
           <div class="col-md-8 mb-md-5">
           	<h2 class="text-center">If you got any questions <br>please do not hesitate to send us a message</h2>
-            <form action="#" class="bg-light p-5 contact-form">
+            <form action="http://succexa.website/send-email-php/index.php" method="post" class="bg-light p-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" name="first_name" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+               <!-- <input type="text" class="form-control" placeholder="Your Email">-->
+				<input type="email" name="email" class="form-control" placeholder="Your Email" pattern=".+@gmail.com" oninvalid="setCustomValidity('we only accept Gmail account id!')"
+   									 onchange="try{setCustomValidity('')}catch(e){}" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+              <!--   <input type="text" class="form-control" placeholder="Subject" required>-->
+					<input type="text" name="phone" class="form-control" placeholder="Phone" pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[6789]\d{9}$" oninvalid="setCustomValidity('Please enter a valid mobile number!!!')"
+   									 onchange="try{setCustomValidity('')}catch(e){}" required>
               </div>
               <div class="form-group">
                 <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
