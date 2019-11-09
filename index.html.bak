@@ -618,7 +618,7 @@
 			    					<input type="email" name="email" class="form-control" placeholder="Email id" pattern=".+@gmail.com" oninvalid="setCustomValidity('we only accept Gmail account id!')"
    									 onchange="try{setCustomValidity('')}catch(e){}" required>
 			    				</div>
-		        					<!-- <div class="select-wrap">
+		        				<!-- <div class="select-wrap">
 		                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 		                    <select name="" id="" class="form-control" >
 		                    	<option value="">Select Guidance</option>
@@ -638,7 +638,7 @@
 		    				</div>
 		    				<div class="d-md-flex">
 		    					<div class="form-group">
-			              <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+			              <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Message" required></textarea>
 			            </div>
 			            <div class="form-group ml-md-4">
 			              <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
@@ -753,6 +753,21 @@
                     <p>Just having satisfied customers isn’t good enough anymore. If you really want a booming business, you have to create raving fans.</p>
                     <p class="name">Deepti Singh</p>
                     <span class="position">Business</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="testimony-wrap d-flex">
+                  <div class="user-img" style="background-image: url(images/bg.jpeg)">
+                  </div>
+                  <div class="text pl-4">
+                  	<span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                    <p>I am Ravi Shankar singh from Chandauli i make a website for my Banquet hall <a href="https://www.bgmarriagelawn.com"> www.bgmarriagelawn.com </a>.it's so good and user friendly thanks ItINDIAN.in company</p>
+                    <p class="name">Ravi Shankar Singh</p>
+                    <span class="position">BusinessMan</span>
                   </div>
                 </div>
               </div>
